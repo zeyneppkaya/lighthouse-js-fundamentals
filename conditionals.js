@@ -10,3 +10,24 @@ if (cold) {
 }
 
 console.log("Now you're ready to go outside!");
+
+ function whichSchool(age) {
+  // Your code in here ...
+  if (age < 13); { 
+
+    return ("Elementary School");
+  }
+
+if else (age > 13 && age < 18); { 
+
+    return ("Secondary School");
+  }
+
+  else {
+
+    return ("Lighthouse Labs");
+
+  }
+}
+
+console.log(whichSchool(25))
